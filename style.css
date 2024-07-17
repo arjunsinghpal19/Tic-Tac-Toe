@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Press Start 2P", sans-serif;
+}
+
+.cell {
+  width: min(10rem, 100px);
+  height: min(10rem, 100px);
+  font-size: 1.9rem;
+  border: none;
+  background-color: #f0edee;
+  color: #373f51;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  background: #ae76a6;
+}
+
+.rows {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.5em;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  height: 100vh;
+  gap: 1rem;
+  background-color: #f0edee;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #373f51;
+}
+
+form {
+  flex-direction: column;
+  display: flex;
+  gap: 0.8rem;
+}
+
+input {
+  font-size: 0.8rem;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+}
+
+.interact,
+.changeName {
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: #373f51;
+  color: #f0edee;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.interact {
+  margin-bottom: 20px;
+}
+
+.winner {
+  padding: 20px 0px 0px 0px;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #ae76a6;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ae76a6;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer a img {
+  width: 3rem;
+}
